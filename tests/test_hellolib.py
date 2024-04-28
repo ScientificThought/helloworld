@@ -1,3 +1,3 @@
-from hello.hellolib import hello_world
+from helloworld.lib import hello_world
 
 hello_world()
