@@ -7,4 +7,4 @@ name = "hello"
 version = "0.1"
 
 [project.optional-dependencies]
-dev = ["ipython"]
+dev = ["ipython", "pytest"]
