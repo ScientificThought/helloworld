@@ -1,5 +1,5 @@
 env
-env-hello
+env-helloworld
 build
 dist
 *.egg-info
