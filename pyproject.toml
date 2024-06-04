@@ -9,4 +9,7 @@ dynamic = ["version"]
 [project.optional-dependencies]
 dev = ["pytest"]
 
+[project.scripts]
+helloworld = "helloworld.__main__:main"
+
 [tool.setuptools_scm]
