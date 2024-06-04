@@ -1,10 +1,12 @@
 [build-system]
-requires = ["setuptools >= 69.0"]
+requires = ["setuptools", "setuptools_scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "helloworld"
-version = "0.1"
+dynamic = ["version"]
 
 [project.optional-dependencies]
-dev = ["ipython", "pytest"]
+dev = ["pytest"]
+
+[tool.setuptools_scm]
